@@ -16,7 +16,7 @@ const ROPSTEN_NETWORK_WSS = "wss://ropsten.infura.io/ws/v3/" + NODE_API_KEY;
 const ROPSTEN_NETWORK_HTTPS = "https://ropsten.infura.io/v3/" + NODE_API_KEY;
 
 //Deployment block
-const START_BLOCK = 10303080
+const START_BLOCK = 10304855
 
 let erc20Contract = (web3) => {
     if(web3 != undefined && web3.eth != undefined){
